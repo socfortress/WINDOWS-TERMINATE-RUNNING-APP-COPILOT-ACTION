@@ -1,0 +1,32 @@
+{
+  "active_response_name": "WINDOWS-TERMINATE-RUNNING-APP-ACTIVERESPONSE",
+  "description": "Terminates a running application or process on Windows by either its name or PID. Supports forceful termination of multiple processes matching the name, logs all actions, and outputs structured JSON suitable for SOC automation.",
+  "technology": "Windows",
+  "icon": "windows",
+  "script_parameters": [
+    {
+      "name": "LogPath",
+      "type": "string",
+      "required": false,
+      "description": "Path to the rotating human-readable script log.",
+      "default": "%TEMP%/TerminateApp-script.log"
+    },
+    {
+      "name": "ARLog",
+      "type": "string",
+      "required": false,
+      "description": "Path where the active response JSON result will be stored. Uses overwrite-safe NDJSON logging.",
+      "default": "C:\\Program Files (x86)\\ossec-agent\\active-response\\active-responses.log"
+    }
+  ],
+  "user_prompts": [
+    {
+      "prompt": "Enter the application name or PID to terminate",
+      "description": "Specify either a process name (e.g., chrome) or a PID to target for termination."
+    }
+  ],
+  "repo_url": "https://github.com/socfortress/WINDOWS-TERMINATE-RUNNING-APP-ACTIVERESPONSE",
+  "script_name": "windows-terminate-running-app.ps1",
+  "version": "1.0.0",
+  "last_updated": "2025-08-22T00:00:00Z"
+}

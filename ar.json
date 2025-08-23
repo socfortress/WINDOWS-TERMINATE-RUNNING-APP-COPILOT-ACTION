@@ -1,5 +1,5 @@
 {
-  "copilot_action_name": "WINDOWS-TERMINATE-RUNNING-APP-ACTIVERESPONSE",
+  "copilot_action_name": "WINDOWS-TERMINATE-RUNNING-APP-COPILOT-ACTION",
   "description": "Terminates a running application or process on Windows by either its name or PID. Supports forceful termination of multiple processes matching the name, logs all actions, and outputs structured JSON suitable for SOC automation.",
   "technology": "Windows",
   "icon": "windows",

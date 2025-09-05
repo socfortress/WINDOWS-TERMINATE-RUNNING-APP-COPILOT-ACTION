@@ -25,7 +25,7 @@
       "description": "Specify either a process name (e.g., chrome) or a PID to target for termination."
     }
   ],
-  "repo_url": "https://raw.githubusercontent.com/socfortress/WINDOWS-TERMINATE-RUNNING-APP-COPILOT-ACTION/refs/heads/main/",
+  "repo_url": "https://raw.githubusercontent.com/socfortress/WINDOWS-TERMINATE-RUNNING-APP-COPILOT-ACTION/refs/heads/main",
   "script_name": "windows-terminate-running-app.ps1",
   "version": "1.0.0",
   "last_updated": "2025-08-22T00:00:00Z"
